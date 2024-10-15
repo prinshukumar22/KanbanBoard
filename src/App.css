@@ -116,3 +116,16 @@
   width: 400px;
   /* border: "2px solid red"; */
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    gap: 30px;
+  }
+}
+
+/* For laptops (1024px and up) */
+@media (min-width: 1025px) {
+  .container {
+    gap: 30px;
+  }
+}
