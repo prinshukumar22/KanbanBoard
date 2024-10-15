@@ -113,13 +113,16 @@
   align-content: center;
   flex-direction: column;
   gap: 5px;
-  width: 400px;
+  width: 100%;
   /* border: "2px solid red"; */
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 830px) and (max-width: 1024px) {
   .container {
     gap: 30px;
+  }
+  .dashboardContainer {
+    width: 400px;
   }
 }
 
@@ -127,5 +130,8 @@
 @media (min-width: 1025px) {
   .container {
     gap: 30px;
+  }
+  .dashboardContainer {
+    width: 400px;
   }
 }
