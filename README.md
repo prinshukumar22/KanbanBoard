@@ -1,8 +1,32 @@
-# React + Vite
+# Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive Kanban board application built with React that interacts with the [QuickSell API](https://api.quicksell.co/v1/internal/frontend-assignment).
+## Technologies
+- React
+- Redux
+- Axios
+- React-Icons
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Grouping Options**: Group tasks by Status, User, or Priority.
+- **Ordering Options**: Order tasks by Priority or Title.
+- **Interactive UI**: Manage tasks with an interactive interface.
+
+## Getting Started
+
+1. Clone the repository:
+   ```shell
+   git clone https://github.com/prinshukumar22/KanbanBoard.git
+ 
+2. Install dependencies:
+    ```shell
+    cd KanbanBoard
+    npm install
+3. Starting the development server:
+    ```shell
+        npm start
+## Usage
+- Click the "Display" button to open the display options.
+- Select a grouping option (Status, User, Priority) and an ordering option (Priority, Title).
+- The Kanban board will dynamically adjust to display tasks based on your selections.
