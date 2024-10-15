@@ -32,7 +32,7 @@ const Dashboard = () => {
         className="container"
         style={{
           paddingTop: "10px",
-          justifyContent: "space-around",
+          justifyContent: "flex-start",
         }}
       >
         {/* Loop through the dataSelected array */}
