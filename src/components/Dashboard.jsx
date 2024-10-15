@@ -39,7 +39,11 @@ const Dashboard = () => {
         {dataSelected?.map((item, index) => {
           return (
             <>
-              <div key={index} className="dashboardContainer">
+              <div
+                key={index}
+                className="dashboardContainer"
+                style={{ marginBottom: "10px" }}
+              >
                 <div className="flex-sb">
                   <div>
                     {!user ? (
